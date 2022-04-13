@@ -1,0 +1,57 @@
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+npm-debug.log*
+
+# Uploaded files, storage files.
+storage/*
+!storage/.gitkeep
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Compiled
+build
+
+# Dependency directory
+node_modules/
+package-lock.json
+yarn.lock
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.test
+!.env-template
+.cache/
+
+# Benchmarking
+benchmarks/graphs
+
+# Stores VSCode WebStorm and other IDE development content
+.vscode/
+.vscode-test
+.idea
+.DS_Store
+.directory
