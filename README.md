@@ -14,3 +14,4 @@ Its a Nodejs project which is use to calculating your crypto portfolio.
 # How We Run This:
 - Instal "npm install" in the root directory 
 - Enter "node portfolio.js" in the CLI (root directory)
+- Use Master Branch 
